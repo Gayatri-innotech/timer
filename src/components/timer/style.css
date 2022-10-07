@@ -1,0 +1,57 @@
+* {
+  background: rgb(70, 70, 147);
+  margin: 10px;
+}
+.box {
+  width: 100%;
+  height: 40px;
+}
+.box2 {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.box2 .btns {
+  border: none;
+  background: white;
+  width: 150px;
+  height: 50px;
+  font-size: larger;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.box2 .time {
+  border: none;
+  background: white;
+  width: 150px;
+  height: 100px;
+  font-size: larger;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+.times {
+  border: none;
+  background: rgb(33, 37, 41);
+  width: 50px;
+  height: 50px;
+  font-size: larger;
+  border-radius: 10px;
+  color: white;
+  font-size: larger;
+  float: right;
+}
+
+.add {
+  border: none;
+  background: rgb(33, 37, 41);
+  color: white;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  float: left;
+  font-size: larger;
+  cursor: pointer;
+}
